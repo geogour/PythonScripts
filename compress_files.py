@@ -7,6 +7,7 @@ with ZipFile('files.zip','w') as zip:
         # writing each file one by one
         for file in root_dir.rglob("*.txt"):
           zip.write(file)
+          file.unlink()
   
     
 print('The files zipped successfully!') 
