@@ -9,4 +9,4 @@ with ZipFile('files.zip','w') as zip:
           zip.write(file)
   
     
-print('All files zipped successfully!') 
+print('The files zipped successfully!') 
